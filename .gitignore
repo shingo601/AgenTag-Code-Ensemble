@@ -4,6 +4,10 @@ __pycache__/
 .venv/
 venv/
 
-# Large datasets and generated outputs are not source files
+# Generated files and other large datasets are ignored.
+# The ensemble's three required inputs are exceptions below.
 data/*.parquet
-results/
+!data/pull_request.parquet
+!data/pr_commit_details.parquet
+results/*
+!results/extracted_features.csv

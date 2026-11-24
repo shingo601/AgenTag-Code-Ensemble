@@ -13,7 +13,7 @@ shared source required to run it.
 
 ## Inputs
 
-Create the following paths before running the script:
+The required inputs are included in this repository:
 
 - `data/pull_request.parquet`
 - `data/pr_commit_details.parquet`

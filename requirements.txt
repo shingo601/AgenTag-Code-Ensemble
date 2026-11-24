@@ -1,0 +1,14 @@
+# Pinned to the versions used for the results in results/.
+# CPU-only; no GPU is required (the full pipeline is ~2 h on a laptop CPU).
+numpy==2.2.4
+pandas==2.2.3
+scipy==1.15.2
+scikit-learn==1.6.1
+torch==2.7.0
+transformers==4.51.0
+sentence-transformers==4.1.0
+xgboost==2.1.4
+shap==0.52.0
+matplotlib==3.10.1
+pyarrow==19.0.1
+huggingface-hub==0.30.0

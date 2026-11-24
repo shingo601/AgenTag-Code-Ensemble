@@ -1,0 +1,9 @@
+# Local and generated artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large datasets and generated outputs are not source files
+data/*.parquet
+results/
